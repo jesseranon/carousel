@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Carousel</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+
+		<div class="carousel">
+
+			<button class="carousel__button carousel__button--left is-hidden">
+				<img src="img/left.svg" alt="">
+			</button>
+
+			<div class="carousel__track-container">
+				<ul class="carousel__track">
+					<li class="carousel__slide current-slide">
+						<img class="carousel__image" src="https://source.unsplash.com/600x800?beach" alt="">
+					</li>
+					<li class="carousel__slide">
+						<img class="carousel__image" src="https://source.unsplash.com/600x800?mountain" alt="">
+					</li>
+					<li class="carousel__slide">
+						<img class="carousel__image" src="https://source.unsplash.com/600x800?meadow" alt="">
+					</li>
+				</ul>
+			</div>
+
+			<button class="carousel__button carousel__button--right">
+				<img src="img/right.svg" alt="">
+			</button>
+
+			<div class="carousel__nav">
+				<button class="carousel__indicator current-slide"></button>
+				<button class="carousel__indicator"></button>
+				<button class="carousel__indicator"></button>
+			</div>
+			
+		</div>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
